@@ -1,0 +1,29 @@
+{
+  "name": "ping-until",
+  "version": "1.0.0",
+  "description": "ping a domain until it answer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thib3113/ping-until.git"
+  },
+  "keywords": [
+    "ping"
+  ],
+  "author": "Thib3113 <thibaut@spailyweb.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thib3113/ping-until/issues"
+  },
+  "homepage": "https://github.com/thib3113/ping-until#readme",
+  "dependencies": {
+    "beeper": "^1.1.1",
+    "domain-ping": "^0.1.9",
+    "yargs": "latest",
+    "ping": "danielzzz/node-ping",
+    "cli-color": "latest"
+  }
+}
