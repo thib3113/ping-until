@@ -135,3 +135,10 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+.idea/deployment.xml
+.idea/inspectionProfiles/
+.idea/modules.xml
+.idea/ping-until.iml
+.idea/runConfigurations/
+.idea/typescript-compiler.xml
+.idea/vcs.xml

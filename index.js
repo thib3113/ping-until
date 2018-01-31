@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var domainPing = require("domain-ping");
@@ -28,10 +29,10 @@ function ping() {
     domainPing(domain)
         .then(function (res) {
         beeper();
-        console.log(clc.green("Domain " + res.domain + " [" + res.ip + "] respond with success"));
+        console.log(clc.green((new Date()).toLocaleTimeString() + " : Domain " + res.domain + " [" + res.ip + "] respond with success"));
     })
         .catch(function (error) {
-        console.error(error.error);
+        console.error((new Date()).toLocaleTimeString() + " : Domain " + error.domain + " doesn't answer : " + error.error);
         setTimeout(ping, timeBetweenPings);
     });
 }

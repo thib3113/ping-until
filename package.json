@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "ping-until": "./index.js"
+  },
+  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thib3113/ping-until.git"
@@ -23,7 +27,7 @@
     "beeper": "^1.1.1",
     "domain-ping": "^0.1.9",
     "yargs": "latest",
-    "ping": "danielzzz/node-ping",
+    "ping": "danielzzz/node-ping#1601458",
     "cli-color": "latest"
   }
 }
