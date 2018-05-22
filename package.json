@@ -1,6 +1,6 @@
 {
   "name": "ping-until",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ping a domain until it answer",
   "main": "index.js",
   "scripts": {
