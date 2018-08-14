@@ -1,4 +1,7 @@
 # ping-until
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/thib3113/ping-until.svg)](https://greenkeeper.io/)
+
 ping a domain until it answer
 
 #installation
